@@ -80,7 +80,7 @@ body {
   margin: 10px;
 }
 #div1 {
-  background-image: url('images/images/petohl.jpeg');
+  background-image: url('./images/petohl.jpeg');
   background-size: contain;
   height: 25vh;
 }
@@ -90,7 +90,7 @@ body {
     grid-template-rows: 30vh 15vh 15vh 10vh 30vh 30vh;
 }
 #title {
-    background-image: url('images/images/petohl.jpeg');
+    background-image: url('./images/petohl.jpeg');
     background-size: contain;
     grid-column: 2 / 6;
     grid-row: 1 / 2;
@@ -102,25 +102,25 @@ body {
 #article1 {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    background-image: url('images/images/dandelions.jpg');
+    background-image: url('./images/dandelions.jpg');
     background-size: contain;
 } 
 #article2 {
     grid-column: 3 / 4;
     grid-row: 2 / 3;
-    background-image: url('images/images/dandelions.jpg');
+    background-image: url('./images/dandelions.jpg');
     background-size: contain;
 }
 #article3 {
     grid-column: 4 / 5;
     grid-row: 2 / 3;
-    background-image: url('images/images/dandelions.jpg');
+    background-image: url('./images/dandelions.jpg');
     background-size: contain;
 }
 #article4 {
     grid-column: 5 / 6;
     grid-row: 2 / 3;
-    background-image: url('images/images/dandelions.jpg');
+    background-image: url('./images/dandelions.jpg');
     background-size: contain;
 }
 #storyright {
@@ -130,7 +130,7 @@ body {
 #header {
     grid-column: 1 / 7;
     grid-row: 3 / 4;
-    background-image: url('images/images/20260702_111255000_iOS.jpg');
+    background-image: url('./images/20260702_111255000_iOS.jpg');
     background-size: contain;
 }
 #contact {
@@ -140,13 +140,13 @@ body {
 #image1 {
     grid-column: 1 / 4;
     grid-row: 5 / 7;
-    background-image: url('images/images/bloem1.jpeg');
+    background-image: url('./images/bloem1.jpeg');
     background-size: cover;
 }
 #image2 {
     grid-column: 4 / 7;
     grid-row: 5 / 7;
-    background-image: url('images/images/bloem2.jpeg');
+    background-image: url('./images/bloem2.jpeg');
     background-size: cover;
 }
 #blokje {
